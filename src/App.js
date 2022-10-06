@@ -4,19 +4,23 @@ import "antd/dist/antd.min.css";
 import { Layout } from "antd";
 import AppHeader from "./components/common/Header";
 import AppHome from "./views/Home";
+import AppFooter from "./components/common/Footer";
 
-const { Header,Content } = Layout;
+const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
     <Layout className="mainLayout">
       <Header>
-      <AppHeader/>
+        <AppHeader />
       </Header>
 
       <Content>
-        <AppHome/>
+        <AppHome />
       </Content>
+      <Footer>
+        <AppFooter />
+      </Footer>
     </Layout>
   );
 }

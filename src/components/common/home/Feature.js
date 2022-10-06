@@ -39,11 +39,11 @@ const items = [
 
 export default function AppFeature() {
   return (
-    <div className="block featureBlock bgGray">
+    <div id='feature' className="block featureBlock bgGray">
       <div className="container-fluid">
         <div className="titleHolder">
-            <h2>Key feature And Binist</h2>
-            <p>Ocbation conseayus lirob requidiadea , acriam ieam loabum</p>
+          <h2>Key feature And Binist</h2>
+          <p>Ocbation conseayus lirob requidiadea , acriam ieam loabum</p>
         </div>
         <Row gutter={[16, 16]}>
           {items.map((item, index) => {
